@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  color: white;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logoPC {
+  width: 24rem;
+  margin-left: -1rem;
+  margin-right: 2rem;
+}
+
+#button {
+  padding: 1.5rem 3.5rem;
+  border: 2px solid white;
+  font-size: 1.8rem;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer.footer a:hover {
+  color: #b9b9b9;
+}
+
+.copyOBC {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logoPC {
+    width: 18rem;
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .logoPC {
+    width: 15rem;
+    margin-top: 1.5rem;
+  }
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 9rem;
+  margin-top: 5rem;
+}
+
+.container00.container01 {
+  background-image: url(../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(/images/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../images/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(/images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 20rem;
+}
+.titlePadding.titlePadding .h1 {
+  font-size: 4.2rem;
+}
+.titlePadding.titlePadding .h5 {
+  font-size: 1.8rem;
+}
+
+.shortTitle {
+  width: 55rem;
+  margin-bottom: -2.5rem;
+}
+
+.mediumTitle {
+  width: 65rem;
+  margin-bottom: -2.5rem;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+
+  .shortTitle {
+    width: auto;
+    font-size: 5rem;
+  }
+
+  .mediumTitle {
+    width: auto;
+    font-size: 5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
